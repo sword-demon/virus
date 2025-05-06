@@ -23,15 +23,3 @@ categories: [Go]
 2. 如果没有需要使用指针的场景
 3. 如果想在 i 姐使用零值，而非指针。使用零值更加安全。如果使用指针，就需要先判断是否为`nil`，否则直接使用会导致程序`panic`
 
-
-
-```bash
-docker run --name hyperf \
--v /Users/wxvirus/Herd/skeleton:/data/project \
--w /data/project \
--p 9501:9501 -it \
---privileged -u root \
---entrypoint /bin/sh \
-hyperf/hyperf:8.1-alpine-v3.18-swoole
-```
-
