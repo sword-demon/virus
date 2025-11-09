@@ -25,7 +25,7 @@ interface ContextProps {
 export const CodeContext = createContext<ContextProps | undefined>(undefined)
 ```
 
---- 
+---
 
 `src/renderer/src/App.tsx`
 
