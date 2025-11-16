@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9447a26b2a3db193",
+        "id": "70957ac03eeb411b",
         "type": "tabs",
         "children": [
           {
-            "id": "17763b661fce15a0",
+            "id": "4ba35caef72474a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "文章信息图生成提示词.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "文章信息图生成提示词"
             }
           }
         ]
@@ -162,8 +166,15 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "17763b661fce15a0",
+  "active": "4ba35caef72474a0",
   "lastOpenFiles": [
+    "2025-11-16.md",
+    "文章信息图生成提示词.md",
+    "自定义SpringBoot3-x-Starter封装API请求日志切面业务组件.md",
+    "SpringBoot3整合MQTT.md",
+    "C开发环境.md",
+    "未命名.canvas",
+    "未命名.base",
     "electron-uninstall-question.md",
     "electron-snippets-window.md",
     "自定义SpringBoot3-x-Starter封装API请求日志切面业务组件.assets/image-20250524153005909-8071821.png"
