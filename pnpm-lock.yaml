@@ -15,8 +15,8 @@ importers:
         specifier: ^8.1.1
         version: 8.1.1(chokidar@3.6.0)
       hexo-bilibili-bangumi:
-        specifier: ^2.1.6
-        version: 2.1.6
+        specifier: ^2.1.7
+        version: 2.1.7
       hexo-generator-archive:
         specifier: ^2.0.0
         version: 2.0.0
@@ -185,8 +185,8 @@ packages:
     engines: {node: '>= 4.5.0'}
     hasBin: true
 
-  axios@1.17.0:
-    resolution: {integrity: sha512-J8SwNxprqqpbfenehxWYXE7CW+wM1BB4w3+N+g+/Wx40xM4rsLrfPmHHxSWIxJLYDgSY/HqlFPIYb2/S3rxafw==}
+  axios@1.18.0:
+    resolution: {integrity: sha512-E32NzpYKp++W7XRe52rHiXV2ehxmh3wbdgO7MHeFM+vqxLBYHzt0ElkiImtOBxtOmyp0yoC8C6uESVV84Y2/hw==}
 
   babel-walk@3.0.0-canary-5:
     resolution: {integrity: sha512-GAwkz0AihzY5bkwIY5QDR+LvsRQgB/B+1foMPvi0FZPMl5fjD7ICiznUiBdLYMH1QYe6vqu4gWYytZOccLouFw==}
@@ -499,8 +499,8 @@ packages:
     resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
     engines: {node: '>= 6'}
 
-  form-data@4.0.5:
-    resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
+  form-data@4.0.6:
+    resolution: {integrity: sha512-vKatAh4SlVfgbv+YtmhiRjhEMJsYpsG1Y2rMQtR+SVSbytsSD1YGzDIcrAJmdFec88u/+VoGmxnl+80gL1tRCQ==}
     engines: {node: '>= 6'}
 
   fresh@0.5.2:
@@ -561,8 +561,8 @@ packages:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
 
-  hexo-bilibili-bangumi@2.1.6:
-    resolution: {integrity: sha512-3ksPfeWzQZbH08uhh8EdUr1FLv/zRqpZeC+757E5iQz2fX8oqYJf2IQLewDryQCGkHvLgTA2UG42EsPumMcI4Q==}
+  hexo-bilibili-bangumi@2.1.7:
+    resolution: {integrity: sha512-+Ap1L1CAwYj+ANjK0Anslk07bfEWwPSLdHSK8M9rfN0O3u92q+bCtiH7A2h64qDQ39lSqiUVpk0jEcq56uDvEg==}
 
   hexo-cli@4.3.2:
     resolution: {integrity: sha512-druJeBgLpG9ncDS5AhBHdAXk0G4CFj8Qes09pApyZ6bR+nJW1JYiDMuilhudaKDdq+1l49jWXVTidkcb7p0Jbw==}
@@ -1400,10 +1400,10 @@ snapshots:
 
   atob@2.1.2: {}
 
-  axios@1.17.0:
+  axios@1.18.0:
     dependencies:
       follow-redirects: 1.16.0
-      form-data: 4.0.5
+      form-data: 4.0.6
       https-proxy-agent: 5.0.1
       proxy-from-env: 2.1.0
     transitivePeerDependencies:
@@ -1735,7 +1735,7 @@ snapshots:
       es-set-tostringtag: 2.1.0
       mime-types: 2.1.35
 
-  form-data@4.0.5:
+  form-data@4.0.6:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
@@ -1803,10 +1803,10 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hexo-bilibili-bangumi@2.1.6:
+  hexo-bilibili-bangumi@2.1.7:
     dependencies:
       '@babel/runtime': 7.29.7
-      axios: 1.17.0
+      axios: 1.18.0
       bangumi-data: 0.3.209
       cheerio: 1.2.0
       hexo-fs: 5.0.1
